@@ -4,6 +4,24 @@ const audio = document.getElementById("backgroundMusic");
 let musicStarted = false;
 let isMusicPlaying = false;
 
+function iniciarMusica() {
+  if (musicStarted && !audio.paused) return;
+  
+  audio.src = songs[currentSong];
+  audio.play().then(() => {
+    musicStarted = true;
+    isMusicPlaying = true;
+    document.getElementById("musicToggle").textContent = "🔊 Pausar";
+  }).catch(e => console.log("Autoplay bloqueado:", e));
+
+  // Configurar el evento ended correctamente
+  audio.onended = function() {
+    currentSong = (currentSong + 1) % songs.length;
+    audio.src = songs[currentSong];
+    audio.play().catch(e => console.log("Error al reproducir siguiente canción:", e));
+  };
+}
+
 // Control de música
 document.getElementById("musicToggle").addEventListener("click", function() {
   if (isMusicPlaying) {
@@ -16,22 +34,6 @@ document.getElementById("musicToggle").addEventListener("click", function() {
     isMusicPlaying = true;
   }
 });
-
-function iniciarMusica() {
-  if (musicStarted && !audio.paused) return;
-  
-  audio.src = songs[currentSong];
-  audio.play().then(() => {
-    musicStarted = true;
-    isMusicPlaying = true;
-  }).catch(e => console.log("Autoplay bloqueado:", e));
-
-  audio.addEventListener("ended", () => {
-    currentSong = (currentSong + 1) % songs.length;
-    audio.src = songs[currentSong];
-    audio.play();
-  });
-}
 
 // Función para obtener parámetros de la URL
 function getQueryParam(param) {

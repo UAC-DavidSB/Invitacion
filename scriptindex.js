@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Autoformato del código (ej: "uacs001" -> "UACS-001")
   accessCodeInput.addEventListener('input', function(e) {
     let value = e.target.value.trim().toUpperCase();
-    if (value.length > 4 && !value.includes('-')) {
-      value = value.slice(0, 4) + '-' + value.slice(4);
+    if (value.length > 3 && !value.includes('-')) {
+      value = value.slice(0, 3) + '-' + value.slice(4);
     }
     e.target.value = value;
   });
