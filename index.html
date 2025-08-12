@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acceso a Invitación</title>
+  <meta name="google-adsense-account" content="ca-pub-4704501585981299">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="access-container">
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+    
+    <div class="university-logo"></div>
+    <div class="university-title">Universidad Andina del Cusco</div>
+    
+    <h1 class="access-title">Ingrese su código de acceso</h1>
+    <p class="access-subtitle">
+      Por favor ingrese el código que figura en el correo electrónico que recibió.<br>
+      Este código es personal e intransferible.
+    </p>
+    
+    <div class="code-input">
+      <input type="text" id="accessCode" placeholder="Ej: A1B2-C3D4-E5F6" maxlength="14" pattern="[A-Za-z0-9-]+" required>
+    </div>
+    
+    <button class="submit-button" id="submitCode">Validar Código</button>
+  </div>
+
+  <script src="defensores.js"></script>
+  <script src="scriptindex.js"></script>
+</body>
+</html>
