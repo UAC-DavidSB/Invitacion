@@ -84,7 +84,7 @@ function showError(message) {
 
       // Redirigir después de 1.5 segundos
       setTimeout(() => {
-        window.location.href = `prueba3.html?codigo=${encodeURIComponent(code)}`;
+        window.location.href = `invitacion.html?codigo=${encodeURIComponent(code)}`;
       }, 1500);
     }, 2000);
   }

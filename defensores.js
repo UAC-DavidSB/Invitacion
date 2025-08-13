@@ -113,23 +113,23 @@ const invitados = [
   {
     "codigo": "UAC-023",
     "destinatario": "Josué Manuel Gutiérrez Cóndor",
-    "universidad": "Defensor del pueblo (2023 al 2028)"
+    "universidad": "Defensor del pueblo"
   },
   {
     "codigo": "UAC-024",
-    "destinatario": "Magistrada Elcira Farfán Quispe",
-    "universidad": "Corte Superior de Justicia de Cusco"
-  },
-  {
-    "codigo": "UAC-025",
     "destinatario": "General de Brigada Nicola Quiroz Castillo",
     "universidad": "Comandante General de la 5a Brig Mtn"
   },
   {
-    "codigo": "UAC-026",
+    "codigo": "UAC-025",
     "destinatario": "Sami Emperatriz Venero Salas",
     "universidad": "Gerente Regional de Inclusión Social, Mujer y Poblaciones Vulnerables"
-  }
+  },
+   {
+    "codigo": "UAC-026",
+    "destinatario": "Magistrada Elcira Farfán Quispe",
+    "universidad": "Corte Superior de Justicia de Cusco"
+  },
 ];
 
 // Lista de canciones

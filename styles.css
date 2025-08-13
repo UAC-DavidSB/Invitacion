@@ -259,7 +259,7 @@ body::before {
   --letter-delay: 0ms;
   --letter-delay-hover: calc(var(--duration) * 1.25);
   --letter-height: calc(var(--envelope-height) - 2rem);
-  --letter-height-hover: calc(var(--envelope-height) * 1.95);
+  --letter-height-hover: calc(var(--envelope-height) * 1.85);
   --fold-rotate: rotateX(0deg);
   --fold-zindex-hover: 0;
   --fold-rotate-hover: rotateX(180deg);
@@ -845,6 +845,22 @@ body::before {
 
   .envelope-front .seal {
     display: none;
+  }
+}
+
+@media (max-width: 1366px) {
+  .envelope {
+    --letter-height-hover: calc(var(--envelope-height)* 1.77);
+  }
+    .external-buttons.visible {
+    right: 10%;
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) { /* pantallas pequeñas / celulares */
+  .envelope {
+    --letter-height-hover: calc(var(--envelope-height) * 2.50);
   }
 }
 
