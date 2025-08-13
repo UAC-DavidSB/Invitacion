@@ -852,10 +852,6 @@ body::before {
   .envelope {
     --letter-height-hover: calc(var(--envelope-height)* 1.77);
   }
-    .external-buttons.visible {
-    right: 5%;
-    bottom: 30px;
-  }
 }
 
 @media (max-width: 600px) { /* pantallas pequeñas / celulares */
