@@ -255,7 +255,7 @@ body::before {
   --evelope-rotate-delay-hover: 0ms;
   --letter-clr-bg: #dddddd;
   --letter-clr-text: #000000;
-  --letter-font-size: 1rem;
+  --letter-font-size: .8rem;
   --letter-delay: 0ms;
   --letter-delay-hover: calc(var(--duration) * 1.25);
   --letter-height: calc(var(--envelope-height) - 2rem);
@@ -295,7 +295,8 @@ body::before {
   --letter-height: var(--letter-height-hover);
   --letter-delay: var(--letter-delay-hover);
   /* Esto hará que el sobre baje cuando esté activo */
-  transform: translateY(120px);}
+  transform: translateY(120px);
+}
 
 .envelope-inner {
   position: relative;
@@ -333,6 +334,11 @@ body::before {
   overflow: hidden;
 }
 
+.cover-front {
+  width: 100%;
+  height: fit-content;
+}
+
 .envelope-front::before {
   content: "";
   position: absolute;
@@ -348,18 +354,19 @@ body::before {
 }
 
 .envelope-front .university-logo {
-  width: 60px;
-  height: 60px;
+  width: 12%;
+  height: clamp(30px, 8vw, 80px);
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e4/CRSL_01.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   filter: brightness(0) invert(1);
+  margin: 0 auto;
 }
 
 .envelope-front .university-title {
   font-family: 'Playfair Display', serif;
-  font-size: 1.5rem;
+  font-size: clamp(.7rem, 2.5vw, 1.5rem);
   text-align: center;
   margin: 0.5rem 0;
   letter-spacing: 1.5px;
@@ -390,14 +397,14 @@ body::before {
 .envelope-front .address-container {
   width: 100%;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: clamp(0.5rem, 2vw, 1rem);
   position: relative;
   z-index: 1;
 }
 
 .envelope-front .address-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.8rem;
+  font-size: clamp(.5rem, 2.5vw, 0.8rem);
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0.5rem;
   text-transform: uppercase;
@@ -406,7 +413,7 @@ body::before {
 
 .envelope-front .address-content {
   font-family: 'Playfair Display', serif;
-  font-size: 0.9rem;
+  font-size: clamp(.5rem, 2.5vw, 0.9rem);
   color: #fff;
   line-height: 1.4;
 }
@@ -828,6 +835,19 @@ body::before {
   }
 }
 
+/* Estilos para celular */
+@media (max-width: 719px) {
+  .envelope {
+    --envelope-height: 200px;
+    --letter-font-size: 0.7rem;
+    --front-font-size: 1rem;
+  }
+
+  .envelope-front .seal {
+    display: none;
+  }
+}
+
 /* Animaciones */
 @keyframes fadeInScale {
   from { opacity: 0; transform: scale(0.9); }
@@ -837,3 +857,4 @@ body::before {
 .loaded {
   animation: fadeInScale 0.8s ease forwards;
 }
+
