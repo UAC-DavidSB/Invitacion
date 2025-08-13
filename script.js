@@ -77,7 +77,7 @@ function showSchedule() {
 
     <h4>Tarde</h4>
     <div class="schedule-item">
-      <div class="schedule-time">15:00 - 19:00 | <small><em>Mesas de Trabajo y Debate</em></small></div>
+      <div class="schedule-time">15:00 - 18:00 | <small><em>Mesas de Trabajo y Debate</em></small></div>
       <div class="schedule-activity">
         • Rol de las defensorías universitarias, autonomía y fortalecimiento institucional.<br>
         • Derechos fundamentales de la persona y derechos constitucionales.<br>
@@ -87,15 +87,16 @@ function showSchedule() {
       </div>
     </div>
 
+    <div class="schedule-item">
+      <div class="schedule-time">19:00 | <small><em>Cena de Confraternidad</em></small></div>
+    </div>
+
     <h3>VIERNES 26 DE SEPTIEMBRE</h3>
     <h4>Mañana</h4>
     <div class="schedule-item">
-      <div class="schedule-time">09:00 - 12:00 | <small><em>Cierre del evento</em></small></div>
+      <div class="schedule-time">09:00 - 13:00 | <small><em>Cierre del evento</em></small></div>
     </div>
 
-    <div class="schedule-item">
-      <div class="schedule-time">12:00 | <small><em>Almuerzo de Confraternidad</em></small></div>
-    </div>
   </div>
   `;
   
