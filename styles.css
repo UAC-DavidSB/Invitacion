@@ -27,7 +27,7 @@ body::before {
   left: -10px;
   width: calc(100% + 20px);
   height: calc(100% + 20px);
-  background-image: url("https://wallpapers.com/images/hd/statue-of-pachacuti-cusco-peru-plaza-hla92iubmchg647i.jpg");
+  background-image: url("img/plaza.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -798,6 +798,11 @@ body::before {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.mi-svg {
+  height: 40px; /* altura por defecto */
+}
+
+
 @media (max-width: 800px) {
   .external-buttons {
     top: auto;
@@ -845,6 +850,9 @@ body::before {
 
   .envelope-front .seal {
     display: none;
+  }
+    .mi-svg {
+    height: 20px; /* altura para móviles */
   }
 }
 
