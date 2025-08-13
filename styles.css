@@ -853,7 +853,7 @@ body::before {
     --letter-height-hover: calc(var(--envelope-height)* 1.77);
   }
     .external-buttons.visible {
-    right: 10%;
+    right: 5%;
     bottom: 30px;
   }
 }
