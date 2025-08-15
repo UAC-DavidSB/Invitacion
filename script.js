@@ -45,8 +45,23 @@ function getQueryParam(param) {
 function cargarInvitado(codigo) {
   const invitado = invitados.find(i => i.codigo === codigo.toUpperCase());
   if (invitado) {
-    document.querySelector('.address-content strong:first-of-type').textContent = invitado.destinatario;
-    document.querySelector('.address-content strong:last-of-type').textContent = invitado.universidad;
+    const strongs = document.querySelectorAll('.address-content strong');
+    const detalle = document.querySelector('.address-content .detalle');
+
+    // Nombre
+    strongs[0].textContent = invitado.destinatario;
+
+    // Si es defensor
+    if (invitado.cargo.toLowerCase().includes("defensor")) {
+      detalle.textContent = "Defensor/a Universitario/a de la prestigiosa";
+      strongs[1].textContent = invitado.universidad;
+    } 
+    // Si NO es defensor
+    else {
+      detalle.textContent = invitado.cargo;
+      strongs[1].textContent = ""; // No mostramos universidad
+    }
+
     return true;
   }
   return false;
