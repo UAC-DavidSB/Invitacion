@@ -138,7 +138,7 @@ const invitados = [
     "codigo": "UAC-023",
     "destinatario": "Oscar Luque Cutipa",
     "universidad": "",
-    "cargo": "Jefe de la Oficina Defensorial de Cusco"
+    "cargo": "Jefe de la Oficina Defens0rial de Cusco"
   },
   {
     "codigo": "UAC-024",
