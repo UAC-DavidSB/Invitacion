@@ -32,7 +32,7 @@ const invitados = [
   },
   {
     "codigo": "UAC-006",
-    "destinatario": "Mvz. Victor Raul Cano Fuentes",
+    "destinatario": " Mag. Freddy Barrios Sanchez",
     "universidad": "Universidad Nacional Micaela Bastidas de Apurímac",
     "cargo": "Defensor Universitario"
   },
@@ -92,9 +92,9 @@ const invitados = [
   },
   {
     "codigo": "UAC-016",
-    "destinatario": "M.Cs. Victor Ayma Giraldo",
-    "universidad": "Universidad Nacional de Arte Diego Quispe Tito del Cusco",
-    "cargo": "Defensor Universitario"
+    "destinatario": "Defensores Universitarios",
+    "universidad": "",
+    "cargo": "De las Prestigiosas Universidades de la Macroregión Sur del Perú y Universidades Invitadas"
   },
   {
     "codigo": "UAC-017",
@@ -136,15 +136,15 @@ const invitados = [
   // NO DEFENSORES
   {
     "codigo": "UAC-023",
-    "destinatario": "Josué Manuel Gutiérrez Cóndor",
+    "destinatario": "Oscar Luque Cutipa",
     "universidad": "",
-    "cargo": "Defensor del pueblo"
+    "cargo": "Jefe de la Oficina Defensorial de Cusco"
   },
   {
     "codigo": "UAC-024",
     "destinatario": "General de Brigada Nicola Quiroz Castillo",
     "universidad": "",
-    "cargo": "Comandante General de la 5a Brig Mtn"
+    "cargo": "Comandante General de la 5a Brigada de Montaña"
   },
   {
     "codigo": "UAC-025",
@@ -183,10 +183,10 @@ const invitados = [
     "cargo": "Presidente de la Junta de Fiscales Superiores del Distrito Fiscal de Cusco"
   },
    {
-    "codigo": "UAC-028",
+    "codigo": "UAC-031",
     "destinatario": "General PNP Julio César Becerra Cámara",
     "universidad": "",
-    "cargo": "Jefe de la VII MACREPOL CUSCO"
+    "cargo": "Jefe de la VII MACREPOL Cusco"
   },
 ];
 

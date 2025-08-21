@@ -73,7 +73,13 @@ scheduleModal.className = 'schedule-modal';
 document.body.appendChild(scheduleModal);
 
 // Función para mostrar el cronograma
+// Función para mostrar el cronograma
 function showSchedule() {
+  // Verificar si el invitado actual es defensor universitario
+  const codigoInvitado = getQueryParam('codigo');
+  const invitado = invitados.find(i => i.codigo === codigoInvitado?.toUpperCase());
+  const esDefensor = invitado && invitado.cargo.toLowerCase().includes("defensor");
+  
   scheduleModal.innerHTML = `
   <div class="schedule-content">
     <button class="close-schedule">&times;</button>
@@ -102,9 +108,11 @@ function showSchedule() {
       </div>
     </div>
 
+    ${esDefensor ? `
     <div class="schedule-item">
       <div class="schedule-time">19:00 | <small><em>Cena de Confraternidad</em></small></div>
     </div>
+    ` : ''}
 
     <h3>VIERNES 26 DE SEPTIEMBRE</h3>
     <h4>Mañana</h4>
