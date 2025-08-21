@@ -132,6 +132,12 @@ const invitados = [
     "universidad": "Universidad Peruana los Andes - Filial Chanchamayo",
     "cargo": "Defensor Universitario"
   },
+    {
+    "codigo": "UAC-032",
+    "destinatario": "Dra. Patricia Graciela Vela Gómez",
+    "universidad": "Universidad Catolica San Pablo",
+    "cargo": "Defensor Universitario"
+  },
 
   // NO DEFENSORES
   {
