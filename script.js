@@ -86,18 +86,115 @@ function showSchedule() {
     <h2>CRONOGRAMA DEL EVENTO</h2>
 
     <h3>MIÉRCOLES 24 DE SEPTIEMBRE</h3>
+    <h4>Tarde <em> <h5>(Paraninfo Universitario)</h5></em></h4>
     <div class="schedule-item">
-      <div class="schedule-time">14:00 - 19:00 | <small><em>Inauguración del evento</em></small></div>
+      <div class="schedule-time">14:00 - 14:40</div>
+      <div class="schedule-activity">Recepción de invitados y participantes<br>
+      <small><em>(Pequeña entrevista a defensores universitarios)</em></small></div>
     </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">14:40 - 15:00</div>
+      <div class="schedule-activity">Registro de asistencia, entrega de materiales y acreditación</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">15:00 - 15:10</div>
+      <div class="schedule-activity">Palabras de bienvenida del Presidente de la Comisión Organizadora y Defensor Universitario de la UAC<br>
+      <strong>Dr. Antonio Fredy Vengoa Zúñiga</strong></div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">15:10 - 15:20</div>
+      <div class="schedule-activity">Presentación de los Objetivos del Encuentro</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">15:20 - 15:30</div>
+      <div class="schedule-activity">Inauguración oficial</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">15:30 - 15:40</div>
+      <div class="schedule-activity">Brindis de apertura del evento</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">15:40 - 15:50</div>
+      <div class="schedule-activity">Momento artístico<br>
+      <strong>Cámara de Orquesta UAC</strong></div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">15:50 - 16:20</div>
+      <div class="schedule-activity">Conferencia inaugural (virtual)<br>
+      <strong>Dr. Cesar Landa Arroyo</strong><br>
+      <em>Tema: Hostigamiento sexual dentro de los derechos fundamentales que afecta al derecho fundamental de la libertad</em></div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">16:20 - 17:00</div>
+      <div class="schedule-activity">Conferencia magistral<br>
+      <strong>Dr. Oscar Luque Cutipa</strong><br>
+      <em>Jefe de la Oficina Defensorial de Cusco</em></div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">17:00 - 17:50</div>
+      <div class="schedule-activity">Conferencia magistral<br>
+      <strong>Dr. Cesar Jesus Rivera Alosilla</strong><br>
+      </div>
+    </div>
+
 
     <h3>JUEVES 25 DE SEPTIEMBRE</h3>
-    <h4>Mañana</h4>
+    <h4>Mañana (Paraninfo Universitario)</h4>
     <div class="schedule-item">
-      <div class="schedule-time">09:00 - 13:00 | <small><em>Desarrollo de Conferencias</em></small></div>
+      <div class="schedule-time">09:00 - 09:30</div>
+      <div class="schedule-activity">Recepción de participantes y registro de asistencia</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">09:30 - 10:10</div>
+      <div class="schedule-activity">Conferencia Magistral</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">10:10 - 10:50</div>
+      <div class="schedule-activity">Conferencia Magistral</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">10:50 - 11:30</div>
+      <div class="schedule-activity">Conferencia Magistral</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">11:30 - 11:45</div>
+      <div class="schedule-activity">Momento artístico y break<br>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">11:45 - 12:30</div>
+      <div class="schedule-activity">Conferencia Magistral</div>
     </div>
 
-    <h4>Tarde</h4>
+    <h4>Tarde (Paraninfo Universitario)</h4>
     <div class="schedule-item">
+    <div class="schedule-time">15:00 - 15:20</div>
+      <div class="schedule-activity">Recepción de participantes y registro de asistencia</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">15:20 - 15:30</div>
+      <div class="schedule-activity">Inscripción a las mesas de trabajo</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">15:30 - 15:50</div>
+      <div class="schedule-activity">Presentación de las mesas temáticas y dinámica de trabajo</div>
+    </div>
+        <div class="schedule-item">
       <div class="schedule-time">15:00 - 18:00 | <small><em>Mesas de Trabajo y Debate</em></small></div>
       <div class="schedule-activity">
         • Rol de las defensorías universitarias, autonomía y fortalecimiento institucional.<br>
@@ -114,10 +211,39 @@ function showSchedule() {
     </div>
     ` : ''}
 
-    <h3>VIERNES 26 DE SEPTIEMBRE</h3>
+        <h3>VIERNES 26 DE SEPTIEMBRE</h3>
     <h4>Mañana</h4>
     <div class="schedule-item">
-      <div class="schedule-time">09:00 - 13:00 | <small><em>Cierre del evento</em></small></div>
+      <div class="schedule-time">09:00 - 09:30</div>
+      <div class="schedule-activity">Recepción de participantes y registro de asistencia</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">09:30 - 10:00</div>
+      <div class="schedule-activity">Conferencia Magistral</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">10:00 - 11:00</div>
+      <div class="schedule-activity">Plenario<br>
+      <small><em>A cargo de cada presidente por mesa de Trabajo</em></small></div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">11:00 - 11:15</div>
+      <div class="schedule-activity">Momento artístico<br>
+      <strong>Tuna Universitaria</strong></div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">11:15 - 11:30</div>
+      <div class="schedule-activity">Palabras de agradecimiento y clausura del evento</div>
+    </div>
+    
+    <div class="schedule-item">
+      <div class="schedule-time">11:30 - 12:30</div>
+      <div class="schedule-activity">Entrega de recordatorios, elección de la próxima sede y toma oficial de fotos<br>
+      <small><em>A cargo del Dr. Antonio Fredy Vengoa</em></small></div>
     </div>
 
   </div>
@@ -178,11 +304,23 @@ document.addEventListener('DOMContentLoaded', function() {
     showSchedule();
   });
 
-  // Evento para el botón de confirmación
-  document.querySelector('.external-buttons .confirm-button').addEventListener('click', function(e) {
-    e.stopPropagation();
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLScDavipzGEDqa3BCOtpD2TbVDVtJ63bba7sa3jL7zBCAxz-Yw/viewform?usp=dialog', '_blank');
-  });
+ // Evento para el botón de confirmación
+document.querySelector('.external-buttons .confirm-button').addEventListener('click', function(e) {
+  e.stopPropagation();
+  
+  // Obtener el código del invitado actual
+  const codigoInvitado = getQueryParam('codigo');
+  const invitado = invitados.find(i => i.codigo === codigoInvitado?.toUpperCase());
+  
+  // Determinar qué enlace mostrar según el cargo
+  let formLink = "https://docs.google.com/forms/d/e/1FAIpQLScDavipzGEDqa3BCOtpD2TbVDVtJ63bba7sa3jL7zBCAxz-Yw/viewform?usp=dialog";
+  
+  if (invitado && invitado.cargo === "Estimado Docente de la Facultad de Derecho") {
+    formLink = "https://docs.google.com/forms/d/e/1FAIpQLSfjBjw8_VVpXUdatPEKMp9aAqxwNVbi6ttZLR0be0VLQPFRnQ/viewform?usp=dialog";
+  }
+  
+  window.open(formLink, '_blank');
+});
   
   // Cerrar el modal al hacer clic en la X o fuera
   document.addEventListener('click', function(e) {

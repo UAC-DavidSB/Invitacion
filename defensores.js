@@ -194,12 +194,21 @@ const invitados = [
     "universidad": "",
     "cargo": "Jefe de la VII MACREPOL Cusco"
   },
+
+  // DOCENTES DE DERECHO
+  
+   {
+    "codigo": "UAC-033",
+    "destinatario": "",
+    "universidad": "",
+    "cargo": "Estimado Docente de la Facultad de Derecho",
+  },
 ];
 
 // Lista de canciones
 const songs = [
+  "musica/El_condor_pasa.mp3",
   "musica/Inspiracion.mp3",
   "musica/CarnavalArequipeno.mp3",
-  "musica/El_condor_pasa.mp3",
   "musica/Valicha.mp3"
 ];
