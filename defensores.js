@@ -203,6 +203,14 @@ const invitados = [
     "universidad": "",
     "cargo": "Estimado Docente de la Facultad de Derecho",
   },
+  //DEFENSORI UNI
+  ,
+   {
+    "codigo": "UAC-034",
+    "destinatario": "Dr. Florentino Lázaro Mendoza Marín",
+    "universidad": "Universidad Nacional José María Arguedas",
+    "cargo": "Defensor Universitario"
+  },
 ];
 
 // Lista de canciones
