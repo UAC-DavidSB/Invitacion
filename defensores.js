@@ -38,7 +38,7 @@ const invitados = [
   },
   {
     "codigo": "UAC-007",
-    "destinatario": "Mag. Pedro Emiliano Sevillano Mendoza",
+    "destinatario": "Mag. Jose Manuel Alvites Hervay",
     "universidad": "Universidad Tecnológica de los Andes",
     "cargo": "Defensor Universitario"
   },
