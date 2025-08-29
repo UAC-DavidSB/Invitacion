@@ -211,6 +211,12 @@ const invitados = [
     "universidad": "Universidad Nacional José María Arguedas",
     "cargo": "Defensor Universitario"
   },
+  {
+    "codigo": "UAC-035",
+    "destinatario": "Dr. Víctor Javier Cornejo Rodríguez",
+    "universidad": "Universidad José Carlos Mariátegui",
+    "cargo": "Defensor Universitario"
+  },
 ];
 
 // Lista de canciones
