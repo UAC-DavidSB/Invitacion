@@ -217,6 +217,12 @@ const invitados = [
     "universidad": "Universidad José Carlos Mariátegui",
     "cargo": "Defensor Universitario"
   },
+  {
+    "codigo": "UAC-036",
+    "destinatario": "Dra. Mercedes López García",
+    "universidad": "Universidad César Vallejo",
+    "cargo": "Defensor Universitario"
+  },
 ];
 
 // Lista de canciones
