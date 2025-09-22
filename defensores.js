@@ -201,7 +201,7 @@ const invitados = [
     "codigo": "UAC-033",
     "destinatario": "",
     "universidad": "",
-    "cargo": "Estimado Docente de la Facultad de Derecho",
+    "cargo": "Estimado Docente de la Universidad Andina del Cusco",
   },
   //DEFENSORI UNI
   
